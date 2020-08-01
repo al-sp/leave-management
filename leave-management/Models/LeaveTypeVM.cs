@@ -13,6 +13,7 @@ namespace leave_management.Models
         public DateTime DateCreated { get; set; }
     }
 
+
     public class CreateLeaveTypeVM
     {
         [Required]
