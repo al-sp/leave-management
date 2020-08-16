@@ -15,6 +15,7 @@ namespace leave_management.Models
         [Display(Name = "Employee Name")]
         public Employee RequestingEmployee { get; set; }
 
+        [Display(Name = "Employee Name")]
         public string RequestingEmployeeId { get; set; }
 
         [Display(Name = "Start Date")]

@@ -2,7 +2,7 @@
 
 @{
     ViewData["Title"] = "ListEmployees";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_AdminLTE.cshtml";
 }
 
 <h1>List Employees</h1>
@@ -37,7 +37,7 @@
             </td>
             <td>
                 <a class="btn btn-outline-success" asp-action="Details" asp-route-id="@item.Id">
-                    <i class="fa fa-info-circle"></i> Details
+                    <i class="fas fa-info-circle"></i> Details
                 </a>
             </td>
         </tr>
